@@ -7,6 +7,7 @@ A nice and simple Rust template to let me (or anyone else) quickly whip up new p
 - [env_logger](https://crates.io/crates/env_logger) for logging
 - [anyhow](https://crates.io/crates/anyhow) for error context
 - [serde](https://crates.io/crates/serde) for data serialization and deserialization
+- Some basic settings for rustfmt, and the default settings for Clippy.
 
 Every project is different, so there's not many dependencies in this template.
 This is mainly a quick way to get started.
@@ -19,6 +20,7 @@ for more useful crates and libraries.
 - [Rust Analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 - [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+with some basic settings.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
