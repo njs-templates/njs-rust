@@ -34,7 +34,7 @@ but a cleaner approach is with [degit](https://github.com/Rich-Harris/degit).
 ```bash
 npx degit njs-templates/njs-rust new-project
 cd new-project
-yarn
+cargo build
 ```
 
 ## Recommended IDE
