@@ -4,10 +4,10 @@ A nice and simple Rust template to let me (or anyone else) quickly whip up new p
 
 ## Features
 
+- Some basic settings for rustfmt, and the default settings for Clippy.
 - [env_logger](https://crates.io/crates/env_logger) for logging
 - [anyhow](https://crates.io/crates/anyhow) for error context
 - [serde](https://crates.io/crates/serde) for data serialization and deserialization
-- Some basic settings for rustfmt, and the default settings for Clippy.
 
 Every project is different, so there's not many dependencies in this template.
 This is mainly a quick way to get started.
@@ -49,7 +49,7 @@ If no one on your team is using VS Code, just delete the `.vscode/` folder.
 - [ ] Delete `LICENSE.txt` from the root of the directory.
     - If your project still uses an MIT License, just edit the author and year.
 - [ ] Either delete `CHANGELOG.md` or remove its contents.
-- [ ] In `cargo.toml`, change the project name and version.
+- [ ] In `Cargo.toml`, change the project name and version.
 - [ ] Delete the `.git/` folder if you cloned this repo.
 - [ ] Run a `git init` to start tracking changes.
 - [ ] Do whatever. This code is yours now. Credit is appreciated but not needed.
@@ -60,7 +60,7 @@ Optional but recommended
 for nicer dependency management.
 - [ ] Install [cargo audit](https://docs.rs/cargo-audit/latest/cargo_audit/)
 for better dependency security.
-- [ ] Using cargo edit, update outdated dependencies with `cargo upgrade.`
+- [ ] Using cargo edit, update outdated dependencies with `cargo upgrade`.
 - [ ] Using cargo edit, remove any unwanted dependencies with `cargo rm`.
 - [ ] Check out [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
 for more useful crates and libraries.
