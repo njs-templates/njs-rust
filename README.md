@@ -8,7 +8,13 @@ A nice and simple Rust template to let me (or anyone else) quickly whip up new p
 
 ### VS Code Extensions
 
-- Extensions
+- [Rust Analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
 ## Installation
 
@@ -37,3 +43,17 @@ If no one on your team is using VS Code, just delete the `.vscode/` folder.
 - [ ] Delete the `.git/` folder if you cloned this repo.
 - [ ] Run a `git init` to start tracking changes.
 - [ ] Do whatever. This code is yours now. Credit is appreciated but not needed.
+
+Optional but recommended
+
+- [ ] Install [cargo edit](https://github.com/killercup/cargo-edit)
+for nicer dependency management.
+- [ ] Install [cargo audit](https://docs.rs/cargo-audit/latest/cargo_audit/)
+for better dependency security.
+- [ ] Using cargo edit, update outdated dependencies with `cargo upgrade.`
+- [ ] Using cargo edit, remove any unwanted dependencies with `cargo rm`.
+
+```bash
+cargo install cargo-edit cargo-audit
+cargo upgrade
+```
