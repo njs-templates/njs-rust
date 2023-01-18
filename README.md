@@ -7,7 +7,12 @@ A nice and simple Rust template to let me (or anyone else) quickly whip up new p
 - [env_logger](https://crates.io/crates/env_logger) for logging
 - [anyhow](https://crates.io/crates/anyhow) for error context
 - [serde](https://crates.io/crates/serde) for data serialization and deserialization
-- [tokio](https://crates.io/crates/tokio) for async
+
+Every project is different, so there's not many dependencies in this template.
+This is mainly a quick way to get started.
+If you're not sure what you need, check out
+[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
+for more useful crates and libraries.
 
 ### VS Code Extensions
 
