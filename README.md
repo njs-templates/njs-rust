@@ -4,7 +4,10 @@ A nice and simple Rust template to let me (or anyone else) quickly whip up new p
 
 ## Features
 
-- Features
+- [env_logger](https://crates.io/crates/env_logger) for logging
+- [anyhow](https://crates.io/crates/anyhow) for error context
+- [serde](https://crates.io/crates/serde) for data serialization and deserialization
+- [tokio](https://crates.io/crates/tokio) for async
 
 ### VS Code Extensions
 
@@ -52,6 +55,8 @@ for nicer dependency management.
 for better dependency security.
 - [ ] Using cargo edit, update outdated dependencies with `cargo upgrade.`
 - [ ] Using cargo edit, remove any unwanted dependencies with `cargo rm`.
+- [ ] Check out [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
+for more useful crates and libraries.
 
 ```bash
 cargo install cargo-edit cargo-audit
